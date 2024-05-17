@@ -1,9 +1,10 @@
-public class Solution {
+package Assignment1;
+public class Solution166915 {
 
     // Fields
     public int peak;
     public int[] array;
-    public int[] peakarray;
+    
 
     // Constructors
 
@@ -39,7 +40,7 @@ public class Solution {
 
     // Main method (if applicable)
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution166915 solution = new Solution166915();
         int[] array =  {13, 18, 26, 34, 27, 19, 19};
         int peak = solution.peak(array);
         System.out.println("Peak: " + peak);
